@@ -20,6 +20,6 @@
 
 ## Outras Classes
 
-A classe <b>Register</b> seria uma classe de utilidade para guardar registros e manejá-los.<br/>
-A classe <b>Sale</b> é uma classe que gera objetos com dados referentes a uma única venda, de modo a ser possível registrar todas as vendas e fazer cálculos de salário.<br/>
-A classe <b>TimeCard</b> é uma classe que gera objetos com horários referentes a um dia de trabalho, necessários para cálculos de salário (se houve hora extra, se é necessário algum desconto).<br/>
+A classe <b>Register</b> seria uma classe de utilidade para guardar registros e manejá-los.<br/><br/>
+A classe <b>Sale</b> é uma classe que gera objetos com dados referentes a uma única venda, de modo a ser possível registrar todas as vendas e fazer cálculos de salário.<br/><br/>
+A classe <b>TimeCard</b> é uma classe que gera objetos com horários referentes a um dia de trabalho, necessários para cálculos de salário (se houve hora extra, se é necessário algum desconto).<br/><br/>
