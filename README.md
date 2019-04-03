@@ -8,7 +8,7 @@
     sem precisar utilizar IF para verificar que tipo de funcionário é esse e aplicar o cálculo específico.<br/>
     - Vantagens: O mesmo método é chamado para todos, ele realizará o cálculo do valor de pagamento independente de tipo utilizando o seguinte código:<br/>
     
-      <code>double pay = employeeStrategy.calculatePayment();</code>(employeeStrategy objeto do tipo EmployeeStrategy)<br/><br/>
+      <code>double pay = employeeStrategy.calculatePayment();</code>   (employeeStrategy objeto do tipo EmployeeStrategy)<br/><br/>
       Caso for necessário implementar novas formas de pagamento não é necessário mexer em códigos já feitos. É só fazer um método calculatePayment() para essa forma de pagamento também.<br/>
    - <b> Iterator</b><br/>
       - Motivo: Era preciso utilizar ArrayList's (registrar) dados, de maneira a percorrer esses registros em diversas partes do código.<br/>
