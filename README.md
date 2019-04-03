@@ -16,3 +16,10 @@
    - <b> Command</b><br/>
       - Motivo: O padrão Command foi utilizado para implementar as funções <b>Undo e Redo</b>. De acordo com a teoria, a classe CommandManager foi utilizada como classe Invoker. A classe Operations será a classe Receiver.<br/>
       - Vantagens: Utilizando tal padrão, para adicionar uma nova funcionalidade que deve ser possível desfazer ou refazer, basta criar a própria funcionalidade e gerar um comando referente a ela, sem ser preciso alterar IF's.<br/>
+
+
+## Outras Classes
+
+A classe <b>Register</b> seria uma classe de utilidade para guardar registros e manejá-los.
+A classe <b>Sale</b> é uma classe que gera objetos com dados referentes a uma única venda, de modo a ser possível registrar todas as vendas e fazer cálculos de salário.
+A classe <b>TimeCard</b> é uma classe que gera objetos com horários referentes a um dia de trabalho, necessários para cálculos de salário (se houve hora extra, se é necessário algum desconto).
